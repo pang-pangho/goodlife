@@ -1,13 +1,82 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+@font-face {
+  font-family: "AppleSD";
+  font-weight: normal;
+  src: url("./font/AppleSDGothicNeoB.ttf") format("truetype");
+}
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header {
+  width: 100vw;
+}
+.logo_img {
+  display: inline-block; /* 로고 이미지를 인라인 요소로 설정하여 왼쪽 정렬합니다. */
+  height: 50px;
+  margin-right: auto; /* 로고 이미지를 왼쪽에 붙입니다. */
+}
+.navbar {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: flex-end; /* 메뉴를 오른쪽으로 정렬합니다. */
+  align-items: center; /* 메뉴를 수직 가운데로 정렬합니다. */
+}
+.navbarMenu {
+  font-family: "AppleSD";
+  font-size: 30px;
+  text-align: right;
+  color: black;
+  margin-left: 60px;
+  padding-right: 40px;
+  text-decoration: none;
+}
+.fc-blue {
+  color: #374ee4;
+}
+.intro_write {
+  font-weight: 900;
+  font-size: 4.333rem;
+}
+.intro_img {
+  display: flex;
+  position: relative;
+}
+/* .health_img .travel_img .study_img {
+} */
+.health_img {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 10%;
+  position: absolute;
+  z-index: 1;
+  left: 140px;
+  top: 140px;
+  animation-delay: 1s;
+}
+
+.travel_img {
+  width: 40vw;
+  height: 60vh;
+  border-radius: 10%;
+  position: absolute;
+  top: -50px;
+  left: 500px;
+}
+.study_img {
+  width: 25vw;
+  height: 45vh;
+  border-radius: 10%;
+  position: absolute;
+  left: 1240px;
+  animation-delay: 1s;
 }
