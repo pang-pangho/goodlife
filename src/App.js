@@ -3,6 +3,8 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Nav from "./component/Nav";
 import Intro from "./component/intro";
+import Center from "./component/center";
+import Whatkind from "./component/whatkind";
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +19,8 @@ function App() {
         </div>
         <div className="body">
           <Intro />
+          <Center />
+          <Whatkind />
         </div>
       </div>
     </BrowserRouter>

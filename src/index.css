@@ -105,3 +105,127 @@ code {
   -webkit-filter: blur(3px);
   filter: blur(5px);
 }
+
+/* center */
+.center_container {
+  position: absolute;
+  left: 25%;
+  top: 1000px;
+  height: 80vh;
+  width: 50vw;
+  border-radius: 35px;
+  background-color: #f6f8fc;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.center_content_text {
+  font-family: "AppleSD";
+  font-weight: 150;
+  font-size: 2.333rem;
+  position: absolute;
+  text-align: left;
+  padding: 40px;
+}
+.green_bar {
+  background: linear-gradient(to top, #bfffa1 40%, transparent 40%);
+}
+.yellow_bar {
+  background: linear-gradient(to top, #f7cc4a 40%, transparent 40%);
+}
+.skyblue_bar {
+  background: linear-gradient(to top, #00d8ff 40%, transparent 40%);
+}
+.red_bar {
+  background: linear-gradient(to top, #ff007f 40%, transparent 40%);
+}
+
+.percent {
+  position: absolute;
+  left: 30px;
+  top: 300px;
+  font-family: "AppleSD";
+  font-weight: 150;
+  font-size: 2.333rem;
+  position: absolute;
+}
+
+.percent_text {
+  text-align: left;
+}
+.percent_img {
+  position: absolute;
+  left: 350px;
+  top: -100px;
+}
+
+.what_container {
+  position: absolute;
+  left: 25%;
+  top: 2000px;
+  height: 150vh;
+  width: 50vw;
+  border-radius: 35px;
+  background-color: #f6f8fc;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.fade-in {
+  opacity: 1;
+}
+
+.what_help_title {
+  font-family: "AppleSD";
+  font-weight: 150;
+  font-size: 4.333rem;
+  position: absolute;
+  text-align: left;
+  padding: 40px;
+}
+.what_chlngers {
+  font-family: "AppleSD";
+  font-weight: 150;
+  font-size: 2.333rem;
+  position: absolute;
+  text-align: left;
+  padding: 40px;
+  top: 150px;
+  width: 500px;
+  color: #ff4343;
+}
+.what_chlangers_small {
+  font-size: 1.111rem;
+  color: black;
+}
+.chlangers_img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 600px;
+  top: 60px;
+  border-radius: 10%;
+}
+.what_grow {
+  font-family: "AppleSD";
+  font-weight: 150;
+  font-size: 2.333rem;
+  position: absolute;
+  text-align: left;
+  padding: 40px;
+  top: 650px;
+  width: 500px;
+  color: #7f92f8;
+}
+.grow_img {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  left: 600px;
+  top: 60px;
+  border-radius: 10%;
+}
+.what_grow_small {
+  font-size: 1.111rem;
+  color: black;
+}
